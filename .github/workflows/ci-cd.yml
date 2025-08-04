@@ -27,6 +27,10 @@ jobs:
 
       # 🔸 SonarQube step removed until integration is done
 
+      - name: Analyze with SonarCloud
+        uses: SonarSource/sonarcloud-github-action@master
+        continue-on-error: true
+
       - name: Snyk Scan
         uses: snyk/actions/node@master
         env:
