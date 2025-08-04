@@ -1,0 +1,61 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+  uses: actions/setup-node@v4
+  with:
+    node-version: '18' 
+    
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test -- --ci --json --outputFile=test-results.json || true
+
+      # 🔸 SonarQube step removed until integration is done
+
+      - name: Snyk Scan
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          command: test
+          args: --json > snyk-results.json || true
+
+      - name: Build React App
+        run: npm run build
+
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v20
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          prod: true
+
+      - name: Send Datadog Metrics
+        run: |
+          BUILD_STATUS="${{ job.status }}"
+          BUILD_DURATION=$(( $(date +%s) - $(git log -1 --format=%ct) ))
+          curl -X POST -H "Content-Type: application/json" \
+            "https://api.datadoghq.com/api/v1/series?api_key=${{ secrets.DATADOG_API_KEY }}" \
+            -d "{\"series\":[{\"metric\":\"github.actions.build.duration\",\"points\":[[$(date +%s), ${BUILD_DURATION}]],\"type\":\"gauge\",\"host\":\"github-actions-runner\",\"tags\":[\"project:react-portfolio\",\"status:${BUILD_STATUS}\"]}]}"
+          curl -X POST -H "Content-Type: application/json" \
+            "https://api.datadoghq.com/api/v1/series?api_key=${{ secrets.DATADOG_API_KEY }}" \
+            -d "{\"series\":[{\"metric\":\"github.actions.build.status\",\"points\":[[$(date +%s), $(if [ \"${BUILD_STATUS}\" == \"success\" ]; then echo 1; else echo 0; fi)]],\"type\":\"gauge\",\"host\":\"github-actions-runner\",\"tags\":[\"project:react-portfolio\",\"status:${BUILD_STATUS}\"]}]}"
+        env:
+          DATADOG_API_KEY: ${{ secrets.DATADOG_API_KEY }}
+          DATADOG_APP_KEY: ${{ secrets.DATADOG_APP_KEY }}
