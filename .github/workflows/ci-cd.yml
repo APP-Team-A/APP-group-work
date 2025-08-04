@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test -- --ci --json --outputFile=test-results.json || true
+        run: npm test -- --ci --json --outputFile=test-results.json 
 
       # 🔸 SonarQube step removed until integration is done
 
@@ -33,7 +33,7 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           command: test
-          args: --json > snyk-results.json || true
+          args: --json > snyk-results.json 
 
       - name: Build React App
         run: npm run build
