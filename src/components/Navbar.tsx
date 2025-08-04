@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { cn } from "../lib/utils";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -63,16 +64,14 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
-          <a 
-            href="#" 
+          <Link to={'/'}>
+          <p
             className="nav-link"
-            onClick={(e) => {
-              e.preventDefault();
-              scrollToTop();
-            }}
+            
           >
-            Home 
-          </a>
+           Home 
+          </p>
+          </Link>
           <a href="#features" className="nav-link">About</a>
           <a href="/team-members" className="nav-link">Team Members</a>
           <a href="#details" className="nav-link">Contact</a>
