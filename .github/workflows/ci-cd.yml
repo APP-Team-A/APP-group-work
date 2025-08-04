@@ -27,6 +27,17 @@ jobs:
       - name: Run tests
         run: npm test -- --ci --json --outputFile=test-results.json || true # || true to prevent build failure on test issues for demo
 
+      - name: SonarQube Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          projectKey: your-org_your-repo # Replace with your SonarQube project key (e.g., react-portfolio)
+          # For self-hosted SonarQube, you might need to specify hostUrl
+          # hostUrl: http://localhost:9000 # This would be for a self-hosted SonarQube, but GitHub Actions runners are ephemeral
+          # For self-hosted SonarQube, you'd typically run SonarScanner CLI directly
+          # For simplicity and free tier, consider SonarCloud if your project is public
+
       - name: Snyk Scan
         uses: snyk/actions/node@master
         env:
