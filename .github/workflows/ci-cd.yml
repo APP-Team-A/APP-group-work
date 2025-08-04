@@ -2,15 +2,13 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches:
-      - main # Trigger on pushes to the main branch
+    branches: [main]
   pull_request:
-    branches:
-      - main # Trigger on pull requests to the main branch
+    branches: [main]
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest # Use a fresh Ubuntu virtual machine for each job
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
@@ -25,18 +23,9 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test -- --ci --json --outputFile=test-results.json || true # || true to prevent build failure on test issues for demo
+        run: npm test -- --ci --json --outputFile=test-results.json || true
 
-      - name: SonarQube Scan
-        uses: SonarSource/sonarcloud-github-action@master
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        with:
-          projectKey: your-org_your-repo # Replace with your SonarQube project key (e.g., react-portfolio)
-          # For self-hosted SonarQube, you might need to specify hostUrl
-          # hostUrl: http://localhost:9000 # This would be for a self-hosted SonarQube, but GitHub Actions runners are ephemeral
-          # For self-hosted SonarQube, you'd typically run SonarScanner CLI directly
-          # For simplicity and free tier, consider SonarCloud if your project is public
+      # 🔸 SonarQube step removed until integration is done
 
       - name: Snyk Scan
         uses: snyk/actions/node@master
@@ -44,7 +33,7 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           command: test
-          args: --json > snyk-results.json || true # || true to prevent build failure on Snyk issues for demo
+          args: --json > snyk-results.json || true
 
       - name: Build React App
         run: npm run build
@@ -53,16 +42,14 @@ jobs:
         uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} # Optional, but recommended for team accounts
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} # Optional, but recommended
-          prod: true # Deploy to production
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          prod: true
 
       - name: Send Datadog Metrics
         run: |
           BUILD_STATUS="${{ job.status }}"
-          BUILD_DURATION=$((
-            $(date +%s) - $(git log -1 --format=%ct)
-          ))
+          BUILD_DURATION=$(( $(date +%s) - $(git log -1 --format=%ct) ))
           curl -X POST -H "Content-Type: application/json" \
             "https://api.datadoghq.com/api/v1/series?api_key=${{ secrets.DATADOG_API_KEY }}" \
             -d "{\"series\":[{\"metric\":\"github.actions.build.duration\",\"points\":[[$(date +%s), ${BUILD_DURATION}]],\"type\":\"gauge\",\"host\":\"github-actions-runner\",\"tags\":[\"project:react-portfolio\",\"status:${BUILD_STATUS}\"]}]}"
