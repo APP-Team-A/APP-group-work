@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { createHash } from 'crypto'
 
-// 👇 Patch the hash function if needed
+// 👇 Custom plugin to patch hashing
 function customHashPlugin() {
   return {
     name: 'custom-hash-plugin',
@@ -19,5 +19,8 @@ function customHashPlugin() {
 }
 
 export default defineConfig({
-  plugins: [react(), customHashPlugin()],
+  plugins: [
+    react(),
+    customHashPlugin(), // 👈 Add this line
+  ],
 })
