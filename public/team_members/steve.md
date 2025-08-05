@@ -26,8 +26,8 @@ education: Rally Driving School, Nairobi Motor Club
 
 ## About Me
 
-I'm a professional footballer with a deep passion for the game and a focus on achieving excellence. I specialize in delivering match-winning performances, breaking records, and inspiring teams to succeed.
+I'm a professional rally driver with a passion for pushing the limits of speed and precision on the toughest terrains. My focus is on mastering challenging rally courses, delivering consistent performances, and inspiring the next generation of drivers.
 
-Throughout my career, I’ve played for elite clubs like Manchester United, Real Madrid, Juventus, and Al-Nassr, collaborating with top coaches and players in high-stakes competitions. My core values revolve around relentless dedication, mentoring teammates, and creating a lasting impact in football.
+Throughout my career, I’ve competed in national and international rallies, including the iconic Safari Rally, working with skilled navigators and top-tier teams. My core values center on discipline, teamwork, and resilience in the face of unpredictable conditions.
 
-Outside of the game, I enjoy contributing to philanthropy, managing my global brand, and staying active with family.
+Off the track, I’m dedicated to mentoring young drivers, promoting motorsport in Kenya, and spending time with my family while exploring new adventures.
