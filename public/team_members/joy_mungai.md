@@ -34,6 +34,25 @@ I'm a passionate software developer with a keen interest in full-stack developme
 
 I'm particularly skilled in developing Android apps, peer-to-peer networking systems, and performing data analysis with Python libraries like pandas and NumPy. My work focuses on creating practical solutions that address real-world challenges, from decentralized communication systems to ethical technology research.
 
+## Technical Skills
+
+### Mobile Development
+- **Android Development**: Proficient in Java and Kotlin for Android app development
+- **Architecture Components**: Experience with MVVM, Room Database, LiveData, and ViewModel
+- **Offline-First Design**: Built apps that work seamlessly without internet connectivity
+- **UI/UX Design**: Creating intuitive and accessible user interfaces
+
+### Data Analysis & Visualization
+- **Python Libraries**: pandas, NumPy, Matplotlib for data manipulation and visualization
+- **Statistical Analysis**: Performing data-driven insights and market research
+- **Data Visualization**: Creating clear and informative charts and graphs
+- **Research Methods**: Conducting comprehensive market and technology analysis
+
+### Web Development
+- **Frontend**: HTML, CSS, JavaScript for responsive web applications
+- **Full-Stack**: Understanding of both client and server-side development
+- **Modern Frameworks**: Experience with contemporary web development practices
+
 ## My Journey
 
 My journey in software development began with a curiosity about how mobile applications work and evolved into a passion for creating user-centric solutions. I've worked on various projects including a decentralized P2P communication app for university campuses and an offline-first CRUD journal app using Android Architecture Components.
