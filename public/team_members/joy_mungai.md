@@ -87,6 +87,26 @@ My journey in software development began with a curiosity about how mobile appli
 
 Currently, I'm pursuing my Bachelor of Science in Software Engineering at United States International University (USIU-Africa), expected to graduate in 2026. My research interests include ethical technology development, biomedical tech applications, and mobile OS architecture analysis.
 
+## Research Interests
+
+### Ethical Technology Development
+- **AI Ethics**: Exploring responsible AI development and deployment
+- **Privacy-Preserving Systems**: Developing technologies that protect user privacy
+- **Surveillance Technology**: Analyzing the ethical implications of surveillance systems
+- **Digital Rights**: Advocating for user rights in technology platforms
+
+### Biomedical Technology
+- **Health Tech Applications**: Developing software solutions for healthcare
+- **Medical Data Analysis**: Working with healthcare data for insights and improvements
+- **Accessibility**: Creating technology solutions for people with disabilities
+- **Remote Healthcare**: Exploring telemedicine and remote monitoring solutions
+
+### Mobile OS Architecture
+- **System Design**: Understanding mobile operating system architecture
+- **Performance Optimization**: Improving mobile app performance and efficiency
+- **Security**: Implementing secure mobile applications and systems
+- **User Experience**: Creating intuitive mobile interfaces and experiences
+
 ## What I Bring to the Team
 
 - **Technical Expertise**: Strong foundation in Android development, data analysis, and web technologies
