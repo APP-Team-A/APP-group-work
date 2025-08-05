@@ -1,28 +1,33 @@
 ---
-title: Adrian Githinji
-role: Software Engineer
-image: /images/Purple robot.jpeg
-bio: Passionate about learning web development and building real-world projects. Enjoys building scalable web applications and working with leading engineering teams.
-linkedin: https://linkedin.com/in/adrian-githinji
-github: https://github.com/Iamtheanswerrr
-email: masterrrpiece.01@gmail.com
-location: Nairobi, KE
-joinDate: March 2023
+title: John Doe
+role: Senior Software Engineer
+image: /images/john_doe.avif
+bio: John is a seasoned full-stack software engineer with over 8 years of experience building scalable web applications and leading engineering teams. He is passionate about clean code, mentoring junior developers, and leveraging modern technologies to solve real-world problems.
+linkedin: https://linkedin.com/in/johndoe
+github: https://github.com/johndoe
+email: john.doe@example.com
+location: New York, NY
+joinDate: March 2016
 expertise:
-  - HTML
-  - CSS
-  - JavaScript
-  - Git
-  - React basics
+  - Full-stack Development
+  - React & Next.js
+  - TypeScript & JavaScript (ES6+)
+  - Node.js & Express
+  - Cloud Infrastructure (AWS, Vercel)
+  - CI/CD & DevOps Automation
+  - Agile & Scrum Methodologies
 achievements:
-  - Built a class project React app
-  - Participated in Hackathon '24
-  - Contributed to open-source docs
-education: BSc in Software Engineering, USIU-A
+  - Led a team of 10 engineers to launch a scalable e-commerce platform with 1M+ users
+  - Reduced frontend load times by 40% through code-splitting and performance optimization
+  - Open-source maintainer of a popular React hook library with 10k+ weekly downloads
+  - Speaker at ReactConf 2023 on scalable React architectures
+education: BSc in Computer Science, University of California, Berkeley
 ---
 
 ## About Me
 
-I’m a Software Engineering student in junior year at USIU-A, passionate about frontend technologies and building real-world solutions. I’m currently diving deep into JavaScript and React, and enjoy experimenting with scalable web development practices.
+I'm a Senior Software Engineer with a deep interest in crafting user-focused software using modern web technologies. I specialize in full-stack development with a focus on frontend performance and clean architecture.
 
-In my free time, I like exploring new tools, contributing to open-source documentation, and collaborating on side projects with peers.
+Throughout my career, I’ve worked in fast-paced startup environments, collaborated with cross-functional teams, and contributed to both greenfield projects and large-scale refactors. My core values revolve around continuous learning, empathy in code reviews, and building software that has meaningful impact.
+
+Outside of work, I enjoy writing technical articles, contributing to open-source projects, and hiking in nature.
