@@ -1,7 +1,7 @@
 ---
-title: John Doe
-role: Senior Software Engineer
-image: /images/john_doe.avif
+title: Salim Mwarika
+role: Full Stack Developer
+image: /images/salim_mwarika.jpg
 bio: John is a seasoned full-stack software engineer with over 8 years of experience building scalable web applications and leading engineering teams. He is passionate about clean code, mentoring junior developers, and leveraging modern technologies to solve real-world problems.
 linkedin: https://linkedin.com/in/johndoe
 github: https://github.com/johndoe
