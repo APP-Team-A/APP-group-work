@@ -1,3 +1,4 @@
+---
 title: Kierran Nic Maina
 role: Software Engineer image: 
 image: ![adro_bmw_m4_coupe_facelift_kit_5k_3-5120x2880](https://github.com/user-attachments/assets/2494b767-078d-4da7-a469-a3407f198159)
@@ -19,3 +20,4 @@ joinDate: March 2023
 - Led a team of 10 engineers to launch a scalable e-commerce platform with 1M+ users
 - Reduced frontend load times by 40% through code-splitting and performance optimization
 - Open-source maintainer of a React hook library with 10k+ weekly downloads
+---
