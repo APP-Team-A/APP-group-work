@@ -1,7 +1,7 @@
 --
 title: Adrian Githinji
 role: Software Engineer
-image: /images/Purple robot.jpeg
+image: /images/Purple_robot.jpeg
 bio: Passionate about learning web development and building real-world projects.
 building scalable web applications and  working with leading engineering teams.
 linkedin: https://linkedin.com/in/adrian-githinji
