@@ -6,8 +6,8 @@ bio: James is a Software Engineer extraordinaire with 4 years vast experience bu
 linkedin: www.linkedin.com/in/james-mang-ana-508a371a1
 github: https://github.com/jayotieno
 email: jamesmangana.jm@outlook.com
-location: New York, NY
-joinDate: March 2016
+location: Nairobi, NBO
+joinDate: January 2021
 expertise:
   - Full-stack Development
   - React & Next.js
