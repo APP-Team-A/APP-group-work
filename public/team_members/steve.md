@@ -17,11 +17,11 @@ expertise:
   - Endurance Racing
   - Sponsorship Management
 achievements:
-  - Led teams to 5 UEFA Champions League titles with Manchester United and Real Madrid
-  - Secured 7 league titles across England, Spain, Italy, and Portugal
-  - Won 5 Ballon d'Or awards as the world's best player
-  - Became all-time top scorer in men's international football with 130+ goals
-education: Football Academy, Sporting CP
+  - Won the Kenya National Rally Championship 3 times
+  - Secured podium finishes in 7 East African Safari Rally events
+  - Represented Kenya in the World Rally Championship (WRC) Safari Rally
+  - Set fastest stage time in the 2023 WRC Safari Rally
+education: Rally Driving School, Nairobi Motor Club
 ---
 
 ## About Me
