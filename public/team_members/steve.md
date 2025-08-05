@@ -6,16 +6,16 @@ bio: Steve Wakahu is a celebrated Kenyan rally driver, renowned for his daring y
 linkedin: https://linkedin.com/in/stevewakahu
 instagram: https://instagram.com/stevewakahu
 email: contact@stevewakahu.com
-location: Riyadh, Saudi Arabia
-joinDate: January 2002
+location: Nairobi, Kenya
+joinDate: March 2005
 expertise:
-  - Forward Play
-  - Goal Scoring
-  - Aerial Ability
-  - Leadership
-  - Free Kicks
-  - Physical Fitness
-  - Brand Management
+  - Precision Driving
+  - Navigator Coordination
+  - High-Speed Control
+  - Vehicle Maintenance
+  - Rally Strategy
+  - Endurance Racing
+  - Sponsorship Management
 achievements:
   - Led teams to 5 UEFA Champions League titles with Manchester United and Real Madrid
   - Secured 7 league titles across England, Spain, Italy, and Portugal
