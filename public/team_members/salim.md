@@ -2,9 +2,9 @@
 title: Salim Mwarika
 role: Full Stack Developer
 image: /images/salim_mwarika.jpg
-bio: John is a seasoned full-stack software engineer with over 8 years of experience building scalable web applications and leading engineering teams. He is passionate about clean code, mentoring junior developers, and leveraging modern technologies to solve real-world problems.
-linkedin: https://linkedin.com/in/johndoe
-github: https://github.com/johndoe
+bio: Salim is a Full Stack Software Engineer with 3 years of experience building scalable web applications and 2 years in Machine Learning and NLP. He’s passionate about solving real-world problems in Africa using innovative software and AI solutions. He has led frontend architecture, built multilingual NLP pipelines, and developed real-time, low-latency applications using modern technologies.
+linkedin: https://linkedin.com/in/salimmwatsefu
+github: https://github.com/Salimmwatsefu
 email: john.doe@example.com
 location: New York, NY
 joinDate: March 2016
