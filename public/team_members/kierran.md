@@ -4,7 +4,7 @@ role: Software Engineer
 image: /images/kierran.jpg
 bio: Kierran is a student majoring in Software Engineering
 linkedin: https://linkedin.com/in/kierrannicmaina
-github: https: //github.com/Kierran777
+github: https://github.com/Kierran777
 email: kierranmaina7@gmail.com
 location: Nairobi, Kenya
 joinDate: March 2023
