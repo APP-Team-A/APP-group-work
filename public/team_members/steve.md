@@ -2,10 +2,10 @@
 title: Steve wakahu
 role: Rally Driver
 image: /images/steve.jpg
-bio: Cristiano Ronaldo is a world-renowned footballer with over 20 years of experience dominating the sport. He is celebrated for his extraordinary goal-scoring ability, leadership, and dedication, consistently delivering success at the highest levels of club and international football.
-linkedin: https://linkedin.com/in/cristianoronaldo
-instagram: https://instagram.com/cristiano
-email: contact@cr7.com
+bio: Steve Wakahu is a celebrated Kenyan rally driver, renowned for his daring yet precise driving style on some of the world’s most demanding rally stages. With a career spanning over 15 years, Steve has earned a reputation as a formidable competitor in African motorsport, blending strategic racecraft with a deep passion for the sport. His commitment to excellence and mentorship has made him a role model for aspiring drivers across the continent.
+linkedin: https://linkedin.com/in/stevewakahu
+instagram: https://instagram.com/stevewakahu
+email: contact@stevewakahu.com
 location: Riyadh, Saudi Arabia
 joinDate: January 2002
 expertise:
