@@ -13,8 +13,8 @@ expertise:
   - React & Next.js
   - TypeScript & JavaScript (ES6+)
   - Node.js & Express
-  -Java
-  -C++
+  - Java
+  - C++
   - Cloud Infrastructure (AWS, Vercel)
   - CI/CD & DevOps Automation
   - Agile & Scrum Methodologies
@@ -33,6 +33,7 @@ I'm a Senior Software Engineer with a deep interest in crafting user-focused sof
 Throughout my career, I’ve worked in fast-paced startup environments, collaborated with cross-functional teams, and contributed to both greenfield projects and large-scale refactors. My core values revolve around continuous learning, empathy in code reviews, and building software that has meaningful impact.
 
 Outside of work, I enjoy writing technical articles, contributing to open-source projects, and hiking in nature.
+
 
 
 
