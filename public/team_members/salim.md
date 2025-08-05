@@ -10,27 +10,31 @@ location: Nairobi, Kenya
 joinDate: January 2022
 expertise:
   - Full-stack Development
-  - React & Next.js
-  - TypeScript & JavaScript (ES6+)
-  - Node.js & Express
-  - Cloud Infrastructure (AWS, Vercel)
-  - CI/CD & DevOps Automation
-  - Agile & Scrum Methodologies
+  - React.js, Next.js, TypeScript, Zustand
+  - Node.js, Express.js, PostgreSQL
+  - Natural Language Processing (BERT, Scikit-learn)
+  - Python, TensorFlow, Hugging Face
+  - CI/CD, Docker, GitHub Actions
+  - DevOps & Cloud (Firebase, Kubernetes, Terraform)
 achievements:
-  - Led a team of 10 engineers to launch a scalable e-commerce platform with 1M+ users
-  - Reduced frontend load times by 40% through code-splitting and performance optimization
-  - Open-source maintainer of a popular React hook library with 10k+ weekly downloads
-  - Speaker at ReactConf 2023 on scalable React architectures
-education: BSc in Computer Science, University of California, Berkeley
+  - Led the design and implementation of Finlingo's frontend architecture
+  - Built a multilingual fraud detection NLP pipeline using BERT for Swahili and English
+  - Reduced Finlingo AI response latency to under 1 second for low-bandwidth environments
+  - Mentored student developers during Microsoft AppFactory program at USIU
+education:
+  - Full Stack Software Engineering - Moringa School
+  - Performance Engineering & DevSecOps - Accelerate by Safaricom
+  - BSc in Software Engineering, United States International University - Africa
+
 ---
 
 ## About Me
 
-I'm a Senior Software Engineer with a deep interest in crafting user-focused software using modern web technologies. I specialize in full-stack development with a focus on frontend performance and clean architecture.
+I'm a Full Stack Developer and Machine Learning enthusiast based in Nairobi, Kenya. Over the past three years, I’ve led the frontend development of platforms like Finlingo and built advanced NLP systems for fraud detection across multiple languages.
 
-Throughout my career, I’ve worked in fast-paced startup environments, collaborated with cross-functional teams, and contributed to both greenfield projects and large-scale refactors. My core values revolve around continuous learning, empathy in code reviews, and building software that has meaningful impact.
+My passion lies in building software that addresses local challenges — from financial literacy to online safety. I enjoy crafting seamless frontend experiences with React.js and Zustand, and integrating intelligent backends using Python, BERT, and cloud infrastructure.
 
-Outside of work, I enjoy writing technical articles, contributing to open-source projects, and hiking in nature.
+Outside of work, I explore new AI technologies, write technical documentation, and contribute to digital transformation projects across Africa.
 
 
 
