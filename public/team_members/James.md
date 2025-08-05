@@ -3,9 +3,9 @@ title: James Mang'ana
 role: Junior Software Engineer
 image: public/images/ronaldo.jpg
 bio: James is a Software Engineer extraordinaire with 4 years vast experience building scalable web applications and deputizing engineering teamss. He is passionate about clean code, mentoring junior developers, and leveraging modern technologies to solve real-world problems.
-linkedin: https://linkedin.com/in/johndoe
-github: https://github.com/johndoe
-email: john.doe@example.com
+linkedin: www.linkedin.com/in/james-mang-ana-508a371a1
+github: https://github.com/jayotieno
+email: jamesmangana.jm@outlook.com
 location: New York, NY
 joinDate: March 2016
 expertise:
