@@ -115,6 +115,20 @@ Currently, I'm pursuing my Bachelor of Science in Software Engineering at United
 - **Leadership**: Led teams in tech ethics competitions and collaborative projects
 - **Problem-Solving**: Focus on creating practical, user-focused solutions
 
+## Future Goals
+
+### Short-term (2024-2026)
+- **Complete Software Engineering Degree**: Graduate with honors from USIU-Africa
+- **Expand Mobile Development Skills**: Master advanced Android development techniques
+- **Contribute to Open Source**: Actively participate in mobile development communities
+- **Research Publication**: Publish findings on mobile OS architecture and ethics
+
+### Long-term Vision
+- **Healthcare Technology**: Develop innovative solutions for healthcare accessibility
+- **Ethical AI Development**: Contribute to responsible AI system development
+- **Technology Education**: Share knowledge and mentor upcoming developers
+- **Social Impact**: Create technology solutions that address real-world challenges
+
 ## Beyond Code
 
 When I'm not coding or analyzing data, I enjoy staying updated with the latest technology trends, participating in tech ethics discussions, and contributing to projects that make a positive impact on society. 
