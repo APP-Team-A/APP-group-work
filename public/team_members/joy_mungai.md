@@ -4,7 +4,7 @@ role: Software Developer & Data Analyst
 image: /images/joy_mungai.jpg
 bio: Joy Mungai is a passionate software developer with a keen interest in full-stack development and data-driven solutions. With a strong foundation in Java, Python, and mobile application development, she enjoys building innovative tools that bridge the gap between users and technology. She's particularly skilled in developing Android apps, peer-to-peer networking systems, and performing data analysis with Python libraries like pandas and NumPy.
 linkedin: 
-github: 
+github: https://github.com/JoybMungai
 email: mungaib.joy@gmail.com
 location: Nairobi, Kenya
 joinDate: August 2023
