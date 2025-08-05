@@ -57,6 +57,32 @@ I'm particularly skilled in developing Android apps, peer-to-peer networking sys
 
 My journey in software development began with a curiosity about how mobile applications work and evolved into a passion for creating user-centric solutions. I've worked on various projects including a decentralized P2P communication app for university campuses and an offline-first CRUD journal app using Android Architecture Components.
 
+## Key Projects
+
+### Decentralized P2P Communication App
+- **Technology**: Android (Java), Peer-to-Peer Networking
+- **Description**: Developed a communication app for university campuses that operates without central servers
+- **Impact**: Enabled secure, private communication for students across campus networks
+- **Skills Demonstrated**: Network programming, Android development, security considerations
+
+### Offline-First CRUD Journal App
+- **Technology**: Android Architecture Components, Room Database, MVVM
+- **Description**: Built a personal journal app that works completely offline
+- **Features**: Local data storage, intuitive UI, data synchronization when online
+- **Skills Demonstrated**: Android Architecture Components, offline-first design, data persistence
+
+### Mobile OS Market Analysis
+- **Technology**: Python, pandas, NumPy, data visualization
+- **Description**: Conducted comprehensive research on mobile OS innovation gaps
+- **Outcome**: Published analysis identifying opportunities for mobile OS improvements
+- **Skills Demonstrated**: Data analysis, research methodology, technical writing
+
+### Tech Ethics AI Surveillance Project
+- **Technology**: Research and analysis, ethical framework development
+- **Description**: Led team in analyzing AI surveillance implications and developing ethical guidelines
+- **Impact**: Contributed to understanding of AI ethics in surveillance applications
+- **Skills Demonstrated**: Ethical reasoning, team leadership, technical research
+
 ## Current Focus
 
 Currently, I'm pursuing my Bachelor of Science in Software Engineering at United States International University (USIU-Africa), expected to graduate in 2026. My research interests include ethical technology development, biomedical tech applications, and mobile OS architecture analysis.
