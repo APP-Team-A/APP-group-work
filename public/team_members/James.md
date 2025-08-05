@@ -13,15 +13,17 @@ expertise:
   - React & Next.js
   - TypeScript & JavaScript (ES6+)
   - Node.js & Express
+  -Java
+  -C++
   - Cloud Infrastructure (AWS, Vercel)
   - CI/CD & DevOps Automation
   - Agile & Scrum Methodologies
 achievements:
-  - Led a team of 10 engineers to launch a scalable e-commerce platform with 1M+ users
-  - Reduced frontend load times by 40% through code-splitting and performance optimization
+  - Led a team of 5 engineers to launch a scalable ERP system with 15k+ users
+  - Reduced frontend load times by 50% through code-splitting and performance optimization
   - Open-source maintainer of a popular React hook library with 10k+ weekly downloads
   - Speaker at ReactConf 2023 on scalable React architectures
-education: BSc in Computer Science, University of California, Berkeley
+education: BSc in Software Engineering, USIU-Africa.
 ---
 
 ## About Me
