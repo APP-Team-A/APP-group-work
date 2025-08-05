@@ -5,9 +5,9 @@ image: /images/salim_mwarika.jpg
 bio: Salim is a Full Stack Software Engineer with 3 years of experience building scalable web applications and 2 years in Machine Learning and NLP. He’s passionate about solving real-world problems in Africa using innovative software and AI solutions. He has led frontend architecture, built multilingual NLP pipelines, and developed real-time, low-latency applications using modern technologies.
 linkedin: https://linkedin.com/in/salimmwatsefu
 github: https://github.com/Salimmwatsefu
-email: john.doe@example.com
-location: New York, NY
-joinDate: March 2016
+email: sjmwatsefu@gmail.com
+location: Nairobi, Kenya
+joinDate: January 2022
 expertise:
   - Full-stack Development
   - React & Next.js
