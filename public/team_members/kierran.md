@@ -21,3 +21,4 @@ joinDate: March 2023
 - Reduced frontend load times by 40% through code-splitting and performance optimization
 - Open-source maintainer of a React hook library with 10k+ weekly downloads
 ---
+
