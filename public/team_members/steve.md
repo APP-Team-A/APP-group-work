@@ -1,7 +1,7 @@
 ---
 title: Steve wakahu
 role: Rally Driver
-image: /images/steve.jpg
+image: /images/steve.png
 bio: Steve Wakahu is a celebrated Kenyan rally driver, renowned for his daring yet precise driving style on some of the world’s most demanding rally stages. With a career spanning over 15 years, Steve has earned a reputation as a formidable competitor in African motorsport, blending strategic racecraft with a deep passion for the sport. His commitment to excellence and mentorship has made him a role model for aspiring drivers across the continent.
 linkedin: https://linkedin.com/in/stevewakahu
 instagram: https://instagram.com/stevewakahu
