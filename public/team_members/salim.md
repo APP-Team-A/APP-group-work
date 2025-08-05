@@ -1,7 +1,7 @@
 ---
 title: Salim Mwarika
 role: Full Stack Developer
-image: /images/salim_mwarika.jpg
+image: /images/salim.jpg
 bio: Salim is a Full Stack Software Engineer with 3 years of experience building scalable web applications and 2 years in Machine Learning and NLP. He’s passionate about solving real-world problems in Africa using innovative software and AI solutions. He has led frontend architecture, built multilingual NLP pipelines, and developed real-time, low-latency applications using modern technologies.
 linkedin: https://linkedin.com/in/salimmwatsefu
 github: https://github.com/Salimmwatsefu
