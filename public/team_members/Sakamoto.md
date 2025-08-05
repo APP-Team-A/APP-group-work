@@ -7,7 +7,7 @@ linkedin: https://linkedin.com/in/Sakamoto
 github: https://github.com/sakamoto
 email: Sakamoto@example.com
 location: Tokyo, Japan
-joinDate: January, 2017title: Sakamoto
+joinDate: January, 2017
 role: Shadow Full-Stack Engineer
 image: /images/sakamoto.avif
 bio: Once the most feared assassin in the underworld, Sakamoto now writes code with the same precision he once used to eliminate targets. Calm, composed, and unstoppable, he builds scalable systems with zero bugs — or so the legend goes.
