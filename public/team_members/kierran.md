@@ -1,6 +1,6 @@
 ---
 title: Kierran Nic Maina
-role: Software Engineer image: 
+role: Software Engineer
 image: /images/kierran.jpg
 bio: Kierran is a student majoring in Software Engineering
 linkedin: https://linkedin.com/in/kierrannicmaina
