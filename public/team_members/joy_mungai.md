@@ -15,11 +15,16 @@ expertise:
 - Web Development (HTML, CSS, JavaScript)
 - Ethical & Biomedical Tech Research
 - Mobile OS Architecture & Market Analysis
+- Full-Stack Development
+- Python Programming
+- Mobile Application Architecture
 achievements:
 - Developed a decentralized P2P communication app for university campuses
 - Conducted a published market analysis on mobile OS innovation gaps
 - Designed an offline-first CRUD journal app using Android Architecture Components
 - Led a team in a tech ethics case competition focused on AI surveillance
+- Contributed to open-source mobile development projects
+- Presented research findings at university tech symposium
 education: Bachelor of Science in Software Engineering, United States International University (USIU-Africa) — Expected Graduation: 2026
 ---
 
