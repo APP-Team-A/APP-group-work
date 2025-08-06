@@ -1,7 +1,7 @@
 ---
 title: Sakamoto
 role: Professional Assassin
-image: /images/sakamoto.avif
+image: /images/Sakamoto.avif
 bio: Sakamoto, once feared as an elite assassin, now channels his unmatched precision and genius into the world of code. A master of both frontend and backend "combat," he builds flawless applications without breaking a sweat. Whether it's debugging at lightning speed or architecting systems with strategic brilliance, Sakamoto does it all... effortlessly. Even his pull requests are silent but deadly.
 linkedin: https://linkedin.com/in/Sakamoto
 github: https://github.com/sakamoto
