@@ -1,7 +1,7 @@
 ---
 title: Adrian Githinji
 role: Software Engineer
-image: /images/Purple robot.jpeg
+image: /images/Purple_robot.jpeg
 bio: Adrian is a passionate software engineering student in junior year at USIU-A, with a strong interest in frontend technologies and building real-world web solutions. He enjoys working on scalable applications and collaborating with peers on hands-on projects.
 linkedin: https://linkedin.com/in/adrian-githinji
 github: https://github.com/Iamtheanswerrr
