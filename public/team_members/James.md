@@ -1,7 +1,7 @@
 ---
 title: James Mang'ana
 role: Junior Software Engineer
-image: public/images/ronaldo.jpg
+image: /images/ronaldo.jpg
 bio: James is a Software Engineer extraordinaire with 4 years vast experience building scalable web applications and deputizing engineering teamss. He is passionate about clean code, mentoring junior developers, and leveraging modern technologies to solve real-world problems.
 linkedin: www.linkedin.com/in/james-mang-ana-508a371a1
 github: https://github.com/jayotieno
@@ -33,6 +33,7 @@ I'm a Senior Software Engineer with a deep interest in crafting user-focused sof
 Throughout my career, I’ve worked in fast-paced startup environments, collaborated with cross-functional teams, and contributed to both greenfield projects and large-scale refactors. My core values revolve around continuous learning, empathy in code reviews, and building software that has meaningful impact.
 
 Outside of work, I enjoy writing technical articles, contributing to open-source projects, and hiking in nature.
+
 
 
 
