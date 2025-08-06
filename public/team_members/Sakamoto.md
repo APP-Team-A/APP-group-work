@@ -1,21 +1,13 @@
 ---
 title: Sakamoto
 role: Professional Assassin
-image: /images/john_doe.avif
+image: /images/sakamoto.avif
 bio: Sakamoto, once feared as an elite assassin, now channels his unmatched precision and genius into the world of code. A master of both frontend and backend "combat," he builds flawless applications without breaking a sweat. Whether it's debugging at lightning speed or architecting systems with strategic brilliance, Sakamoto does it all... effortlessly. Even his pull requests are silent but deadly.
 linkedin: https://linkedin.com/in/Sakamoto
 github: https://github.com/sakamoto
 email: Sakamoto@example.com
 location: Tokyo, Japan
-joinDate: January, 2017
-role: Shadow Full-Stack Engineer
-image: /images/sakamoto.avif
-bio: Once the most feared assassin in the underworld, Sakamoto now writes code with the same precision he once used to eliminate targets. Calm, composed, and unstoppable, he builds scalable systems with zero bugs — or so the legend goes.
-linkedin: https://linkedin.com/in/sakamoto-senpai
-github: https://github.com/silent-commit
-email: sakamoto@coolmail.com
-location: Tokyo, Japan
-joinDate: April 2022
+joinDate: January, 2015
 expertise:
   - Full-stack Development
   - React & Next.js
